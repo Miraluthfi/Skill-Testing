@@ -23,21 +23,31 @@
         src="https://images.unsplash.com/photo-1490650034439-fd184c3c86a5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80"
         alt=""
       />
-      <h5 class="text-2xl font-semibold">Some Image Information</h5>
-      <p class="text-left mt-4">
-        <span class="text-blue-900 font-extrabold">ipsum dolor </span> sit amet
-        consectetur adipisicing elit. Accusantium odit totam porro blanditiis
-        earum sed exercitationem labore fuga alias non, perferendis aliquid
-        quibusdam! Suscipit, maiores quae tempora repellendus sit nulla?
+      <h5 class="text-center text-2xl font-semibold">
+        Ingin tenang saat pergi liburan? Yuk, titipkan Kucing Kesayangamu di
+        Miaw Pet Services
+      </h5>
+      <p class="text-justify mt-4">
+        <span class="text-blue-900 font-extrabold">Tenang! </span>
+        Ketika pergi ke luar negeri atau ke luar kota dalam waktu yang lama,
+        memang tidak mungkin bagi kita untuk membawa Anabul kesayangan turut
+        serta. Takutnya nih, bisa stres kalau kelamaan di jalan.. Nah, di sisi
+        lain meninggalkan mereka di rumah sendiri juga tidak membuat kita lebih
+        tenang. Meski dititipkan kepada tetangga atau teman, belum tentu, kan,
+        perawatan yang diberikan sesuai dengan standar pemiliknya.
       </p>
     </div>
   </div>
 </template>
 
 <script>
+import Navbar from "@/components/Navbar.vue";
+
 export default {
   name: "Home",
-  components: {},
+  components: {
+    Navbar,
+  },
 };
 </script>
 
